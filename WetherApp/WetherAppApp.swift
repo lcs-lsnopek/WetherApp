@@ -11,7 +11,9 @@ import SwiftUI
 struct WetherAppApp: App {
     var body: some Scene {
         WindowGroup {
+            NavigationView{
             ContentView()
+            }
         }
     }
 }
